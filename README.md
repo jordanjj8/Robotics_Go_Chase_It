@@ -39,8 +39,8 @@ Recommended Virtual Machine Alternative Specs:
 ```
     $ cd /home/workspace/catkin_ws/src
     $ git clone https://github.com/jordanjj8/Robotics_Go_Chase_It.git
-    $ mv /Robotics_Go_Chase_It/ball_chaser /src/ball_chaser 
-    $ mv /Robotics_Go_Chase_It/my_robot /src/my_robot
+    $ mv Robotics_Go_Chase_It/ball_chaser /home/workspace/catkin_ws/src/ball_chaser 
+    $ mv Robotics_Go_Chase_It/my_robot /home/workspace/catkin_ws/src/my_robot
     $ rm -rf Robotics_Go_Chase_It
 ```
 3. Navigate back to the catkin workspace and build the executables:
