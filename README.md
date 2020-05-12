@@ -35,7 +35,7 @@ Recommended Virtual Machine Alternative Specs:
     $ cd /home/workspace/catkin_ws/src
     $ catkin_init_workspace
 ```
-2. Clone the project repository & move the `my_robot` and `ball_chaser` directories into the `src` directory:
+3. Clone the project repository & move the `my_robot` and `ball_chaser` directories into the `src` directory:
 ```
     $ cd /home/workspace/catkin_ws/src
     $ git clone https://github.com/jordanjj8/Robotics_Go_Chase_It.git
@@ -43,18 +43,18 @@ Recommended Virtual Machine Alternative Specs:
     $ mv Robotics_Go_Chase_It/my_robot /home/workspace/catkin_ws/src/my_robot
     $ rm -rf Robotics_Go_Chase_It
 ```
-3. Navigate back to the catkin workspace and build the executables:
+4. Navigate back to the catkin workspace and build the executables:
 ```
     $ cd /home/workspace/catkin_ws/
     $ catkin_make
 ```
-4. Source the setup script and launch the launch file. The robot in Gazebo should open up:
+5. Source the setup script and launch the launch file. The robot in Gazebo should open up:
 ``` 
     $ cd /home/workspace/catkin_ws/
     $ source devel/setup.bash
     $ roslaunch my_robot world.launch 
 ```
-5. Now open up another terminal and launch the ball_chaser package. This will enable the robot to chase after the white ball:
+6. Now open up another terminal and launch the ball_chaser package. This will enable the robot to chase after the white ball:
 ```
     $ cd /home/workspace/catkin_ws/
     $ source devel/setup.bash
